@@ -1,0 +1,24 @@
+{
+  "name": "kotlin-lunch-n-learn",
+  "description": "lunch-n-learn goodness",
+  "repository": "https://github.com/alianza-dev/kotlin-lunch-n-learn",
+  "license": "MIT",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --host 0.0.0.0 --content-base dist/ --inline"
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "css-loader": "^0.23.1",
+    "jade": "^1.11.0",
+    "jade-loader": "^0.8.0",
+    "style-loader": "^0.13.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^2.1.1",
+    "webpack": "1.13.0",
+    "webpack-dev-server": "1.14.1"
+  }
+}
